@@ -89,8 +89,35 @@
 // }
 
 // if 8
-let a = prompt()
-let b = prompt()
-if (a>b){
-    alert(a);
-}
+// let a =Number( prompt())
+// let b =Number( prompt())
+// if (a>b){
+//     alert(a);
+//     alert(b)
+// }
+// else{
+//     alert(b)
+//     alert(a)
+// }
+
+// if 9
+// let a = Number(prompt())
+// let b = Number(prompt())
+// if (a>b){
+//     alert(-a)
+//     alert(b+a)
+// }
+
+// if 10
+// let a = Number(prompt())|0
+// let b = Number(prompt())|0
+// if (a>b){
+//     c=(a+b)
+// }
+// if(a=b){
+//     a=0
+//     b=0
+//     c=a
+// }
+// alert(c)
+
