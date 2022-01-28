@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+    background: url('../portfolio/1006696.png');
+}
+h1
+{
+  
+  font-family: 'Roboto', sans-serif;
+}
+div{
+    width: 500px;
+    border: 3px solid grey;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    margin-bottom: 30px;
+    
+}
+.nth-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.nth{
+    border: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hover h4:hover{
+    color: rgb(255, 255, 255);
+}
+.active a:active{
+    color: green;
+    
+}
+.focus a:focus{
+    color: cyan;
+}
+li:first-child{
+    color: red;
+    font-size:medium;
+}
+li:last-child{
+    color: blue;
+    font-size: x-large;
+}
+h2:first-of-type{
+    color: cyan;
+}
+h2:last-of-type{
+    color: gold;
+}
+span:not(.not){
+    color: lime ;
+    font-size: larger;
+}
+h5{
+    font-size: 20px;
+}
+h5:nth-child(2n){
+    background-color: grey;
+    
+}
+.before::before{
+    content: '✿';
+}
+.after::after{
+    content: '☂';
+}
+.not{
+    border: 0px;
+}

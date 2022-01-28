@@ -118,5 +118,4 @@ function func24(){
     alert(ev)
 }
 
-// 7
 
