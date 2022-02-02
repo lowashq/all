@@ -118,4 +118,19 @@ function func24(){
     alert(ev)
 }
 
+// 7
+function issquare(k){
+    let a = Math.sqrt(k)|0
+    if(a*a == k){
+        return true
+    }
+    else{
+        return false
+    }
+}
+function func25(){
+    let k = prompt()
+    let sq = issquare(k)
+    alert(sq)
+}
 

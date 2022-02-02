@@ -79,8 +79,8 @@
 // }
 
 // if 7
-// let a = prompt()
-// let b = prompt()
+// let a = +prompt()
+// let b = +prompt()
 // if (a<b){
 //     alert(a)
 // }

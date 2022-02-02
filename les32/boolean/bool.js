@@ -19,8 +19,7 @@
 // bl 5
 // let a = prompt()
 // let b = prompt()
-// alert(Boolean(a>=0))
-// alert(Boolean(b<-2))
+// alert(Boolean(a>=0)||(b<-2))
 
 // bl 6
 // let a = prompt()
@@ -37,7 +36,7 @@
 // bl 8
 // let a = prompt()
 // let b = prompt()
-// alert(Boolean(((a<0),(b<0))<0))
+// alert(Boolean((a%2>0),(b%2>0)))
 
 // bl 9
 // let a = prompt()

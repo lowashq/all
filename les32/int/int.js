@@ -60,7 +60,7 @@
 // int 10 (10)
 // let a = Number(prompt())
 // if (a>99){
-//     alert(`${a/100|0}`) 
+//     alert(`${a%10}`) 
 //     alert(`${(a/10|0)%10}`)
 // }   
 // else{
