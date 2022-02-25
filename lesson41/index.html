@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <label for="text">Input Text</label>
+            <input type="text" name="text" id="text">
+            <select name="select" id="select">
+                <option value="Home">Home</option>
+                <option value="School">School</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        
+        <div class="btn btn-create" id="create_task">Create</div>
+    </div>
+    <label for="filter">Filter:</label>
+    <select name="filter" id="filter">
+        <option value="Home">Home</option>
+        <option value="School">School</option>
+        <option value="Other">Other</option>
+        <option value="All">All</option>
+    </select>    
+    <div class="toDo">
+        <h1>ToDo</h1>
+        <ol class="toDo--list">
+            
+        </ol>
+    </div>
+    <div class="restore">
+        <h1>Restore</h1>
+        <ol class="restore--list">
+
+        </ol>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

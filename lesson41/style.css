@@ -1,0 +1,41 @@
+.toDo--item{
+    display: flex;
+    align-items: center;
+}
+
+.item--task{
+    width: 60%;
+}
+
+.item--tag{
+    width: 10%;
+}
+
+.item--date{
+    width: 20%;
+}
+
+.btn-create{
+    background-color: rgb(80, 79, 79);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+}
+
+.fa-trash-arrow-up{
+    margin-right: 20px;
+}
+
+#filter{
+    margin-top: 30px;
+}
